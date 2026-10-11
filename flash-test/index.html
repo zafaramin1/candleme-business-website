@@ -1,0 +1,11 @@
+<!doctype html><html lang="en" style="background:#000"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark"><title>CandleMe white-flash test</title>
+<style>body{background:#000;color:#eee;font:16px/1.5 -apple-system,system-ui,sans-serif;padding:24px;max-width:640px;margin:auto}a{color:#f2d6a5}li{margin:10px 0}code{color:#aaa}</style></head><body>
+<h1>CandleMe white-flash test</h1>
+<p>Static copy of a real Candle page (HTML, CSS, JS, images and the API answers captured from candlemenow.com on 11 Oct 2026). It is not connected to production; nothing here writes to CandleMe.</p>
+<ol>
+<li><a href="./a/">A: as-is</a> (copy of the current production page)</li>
+<li><a href="./b/">B: fix</a> (adds <code>&lt;meta name="color-scheme" content="dark"&gt;</code> plus an immediate black first paint)</li>
+<li><a href="./c/">C: fix B + black iOS startup images</a></li>
+</ol>
+<p><b>How to test on iPhone:</b> open each link in Safari, tap Share, then Add to Home Screen (they are named "Test A", "Test B", "Test C"). Turn on Dark Mode (the WebKit bug is most visible in Dark Mode). Force-quit each test app, then open it from the home screen. Repeat about 5 times per app and compare. A small grey "TEST A/B/C" label in the bottom-left corner shows which one you are looking at.</p>
+</body></html>
